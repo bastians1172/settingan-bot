@@ -1,0 +1,2 @@
+# settingan-bot
+Cek
