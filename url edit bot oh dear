@@ -1,0 +1,63 @@
+WorldSeed = {"zsokaftank1010","zsokaftank2020", "zsokaftank3030"} --WORLD SEED, BOTNYA AKAN RANDOM MASUK DIANTARA WORLD INI.
+setoran = 100 -- MAU SETOR TIAP BERAPA SEED
+
+
+--LISTNYA 1 UNTUK 1 SEED AJA! MISALKAN LU ADA 5 BOT PEPPER, YAUDA LISTNYA GAUSA 5, CKUP 1 AJA.
+ListSeed = {
+    {
+        idSeed = 4585, --ITEM ID SEED / FARM
+        ID_AcuanDrop = 4584, --BOT AKAN DROP SEED DI ACUAN WHEAT (880)
+        WebhookUrl = "", --URL WEBHOOK UNTUK INFO TOTAL SEED DROPPED
+        idHook = "" --ID HOOK SEED
+    },
+    {
+        idSeed = 3004, --ITEM ID SEED / FARM
+        ID_AcuanDrop = 3, --BOT AKAN DROP SEED DI ACUAN DIRT TREE (3)
+        WebhookUrl = "", --URL WEBHOOK UNTUK INFO TOTAL SEED DROPPED
+        idHook = "" --ID HOOK SEED
+    }
+}
+
+---==== PACK SETTINGS ====---
+WorldPack = {"umangajg9803", "umangajg9804"} -- NAMA WORLD STORAGE PACK (PERTAMA)
+autobuypack = true
+hargapack = 2000 -- HARGA PACK
+namapack = "world_lock" -- NAMA PACK
+MinItemPack = 5 --APABILA JUMLAH ITEM YANG ADA DIDALAM iditempack LEBIH BESAR DARIPADA MinItemPack, MAKA BOTNYA MULAI DROP PACKNYA KE STORAGE!
+maxbuy = 10 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA GEMSNYA MASIH CUKUP!
+iditempack = {242}
+WebhookPack = ""
+HookIDPack = "" --ID HOOK PACK
+ID_AcuanDrop_Pack = 5666 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
+
+---===== New Variable on v4.8 =====---
+TilePNB = 3 --BOTNYA AKAN PNB 5 TILES!! PILIH 1~5
+BersihkanBlock = true --BOTNYA AKAN CLEAR PLACED BLOCK SEBELUM NEXT WORLD
+BersihkanFloat = true --BOTNYA AKAN BERSIHKAN FLOATING BLOCK SEBELUM NEXT WORLD
+SisaTree = 3 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISATREE
+
+---===== Bot Off =====---
+Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
+JamSkrg = 14 -- JAM DI KOTAMU SEKARANG (Format 24 Jam)
+JamTidur = {5, 8, 10, 19} -- JAM BOTNYA OFF (Format 24 Jam)
+DelayTidur = 59 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
+
+
+
+---===== JOIN RANDOM WORLD =====---
+nextrandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
+storagerandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
+randomworld = {"ndomkor", "gjbtyjrtj", "rtynjtyj", "rtyntej"} --BEBAS MAU BERAPA WORLD BOTNYA JOIN RANDOM
+delayrandomworld = 30000
+
+target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
+target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
+delayht = 70 -- DELAY HARVEST
+delayplant = 50 -- DELAY PLANT
+delaypnb = 165 -- DELAY PNB
+delayplace = 115 -- DELAY PLACE
+delayworld = 3000 -- DELAY MASUK DOOR
+delaydrop = 500 -- JEDA DROP PER ITEM
+delaytrash = 100
+targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
+Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
