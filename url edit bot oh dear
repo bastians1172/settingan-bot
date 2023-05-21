@@ -31,24 +31,10 @@ HookIDPack = "" --ID HOOK PACK
 ID_AcuanDrop_Pack = 5666 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
 
 ---===== New Variable on v4.8 =====---
-TilePNB = 3 --BOTNYA AKAN PNB 5 TILES!! PILIH 1~5
-BersihkanBlock = true --BOTNYA AKAN CLEAR PLACED BLOCK SEBELUM NEXT WORLD
-BersihkanFloat = true --BOTNYA AKAN BERSIHKAN FLOATING BLOCK SEBELUM NEXT WORLD
+TilePNB = 5 --BOTNYA AKAN PNB 5 TILES!! PILIH 1~5
 SisaTree = 3 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISATREE
 
----===== Bot Off =====---
 Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
-JamSkrg = 14 -- JAM DI KOTAMU SEKARANG (Format 24 Jam)
-JamTidur = {5, 8, 10, 19} -- JAM BOTNYA OFF (Format 24 Jam)
-DelayTidur = 59 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
-
-
-
----===== JOIN RANDOM WORLD =====---
-nextrandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SEBELUM NEXT WORLD
-storagerandom = false --UBAH JADI FALSE JIKA GAMAU JOIN RANDOM WORLD SETELAH BALIK DARI STORAGE
-randomworld = {"ndomkor", "gjbtyjrtj", "rtynjtyj", "rtyntej"} --BEBAS MAU BERAPA WORLD BOTNYA JOIN RANDOM
-delayrandomworld = 30000
 
 target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
 target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
