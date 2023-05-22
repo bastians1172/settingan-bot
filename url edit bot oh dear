@@ -21,11 +21,11 @@ ListSeed = {
 ---==== PACK SETTINGS ====---
 WorldPack = {"umangajg9803", "umangajg9804"}
 autobuypack = true
-hargapack = 50
-namapack = "small_lock"
-MinItemPack = 300
-maxbuy = 400    
-iditempack = {202}
+hargapack = 2000
+namapack = "world_lock"
+MinItemPack = 5
+maxbuy = 10
+iditempack = {242}
 WebhookPack = ""
 HookIDPack = "" --ID HOOK PACK
 ID_AcuanDrop_Pack = 5666 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
