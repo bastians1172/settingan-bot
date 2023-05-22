@@ -19,7 +19,7 @@ ListSeed = {
 }
 
 ---==== PACK SETTINGS ====---
-WorldPack = {"umangajg9803", "umangajg9804"}
+WorldPack = {"umangajg9807", "umangajg9808"}
 autobuypack = true
 hargapack = 2000
 namapack = "world_lock"
