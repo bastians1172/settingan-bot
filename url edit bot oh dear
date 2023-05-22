@@ -19,20 +19,20 @@ ListSeed = {
 }
 
 ---==== PACK SETTINGS ====---
-WorldPack = {"umangajg9803", "umangajg9804"} -- NAMA WORLD STORAGE PACK (PERTAMA)
+WorldPack = {"umangajg9803", "umangajg9804"}
 autobuypack = true
-hargapack = 2000 -- HARGA PACK
-namapack = "world_lock" -- NAMA PACK
-MinItemPack = 5 --APABILA JUMLAH ITEM YANG ADA DIDALAM iditempack LEBIH BESAR DARIPADA MinItemPack, MAKA BOTNYA MULAI DROP PACKNYA KE STORAGE!
-maxbuy = 10 --MAKSIMAL BOTNYA AKAN REPEAT BELI PACK JIKA GEMSNYA MASIH CUKUP!
-iditempack = {242}
+hargapack = 50
+namapack = "small_lock"
+MinItemPack = 300
+maxbuy = 400    
+iditempack = {202}
 WebhookPack = ""
 HookIDPack = "" --ID HOOK PACK
 ID_AcuanDrop_Pack = 5666 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
 
 ---===== New Variable on v4.8 =====---
-TilePNB = 5 --BOTNYA AKAN PNB 5 TILES!! PILIH 1~5
-SisaTree = 3 --BOTNYA AKAN NEXT WORLD APABILA SISA POHON READY BERJUMLAH <= SISATREE
+TilePNB = 5
+SisaTree = 10
 
 Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
 
