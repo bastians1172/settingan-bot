@@ -26,8 +26,8 @@ namapack = "world_lock"
 MinItemPack = 5
 maxbuy = 10
 iditempack = {242}
-WebhookPack = "https://discord.com/api/webhooks/1063595646843633744/d0TZMFWwqvyZZT6lVsXmcXQB8KwklOa-Ec_NOoTNYUpBlGG4sZG9yEQF5-BwiNPfBzvt"
-HookIDPack = "1063603996817899641" --ID HOOK PACK
+WebhookPack = ""
+HookIDPack = "" --ID HOOK PACK
 ID_AcuanDrop_Pack = 5666 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
 
 ---===== New Variable on v4.8 =====---
