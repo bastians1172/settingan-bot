@@ -31,8 +31,8 @@ namapack = "world_lock"
 MinItemPack = 10
 maxbuy = 10
 iditempack = {242}
-WebhookPack = "https://discord.com/api/webhooks/1106051957296222258/bGdKZteMk3Nsu7YZ8vOddain7hkwdgv9IfBgDqBzMX-nsSAtGzKw7xhD3pdlL4tIXnhU"
-HookIDPack = "1106052326038450240"
+WebhookPack = ""
+HookIDPack = ""
 ID_AcuanDrop_Pack = 5666
 
 
