@@ -1,3 +1,8 @@
+
+PingHook = ""
+
+
+
 WorldSeed = {"zsokaftank1010","zsokaftank2020", "zsokaftank3030"} --WORLD SEED, BOTNYA AKAN RANDOM MASUK DIANTARA WORLD INI.
 setoran = 100 -- MAU SETOR TIAP BERAPA SEED
 
@@ -19,16 +24,17 @@ ListSeed = {
 }
 
 ---==== PACK SETTINGS ====---
-WorldPack = {"umangajg9807", "umangajg9808"}
+WorldPack = {"umangajg9807", "umangajg9808", "umangajg9806"}
 autobuypack = true
 hargapack = 2000
 namapack = "world_lock"
-MinItemPack = 5
+MinItemPack = 10
 maxbuy = 10
 iditempack = {242}
-WebhookPack = ""
-HookIDPack = "" --ID HOOK PACK
-ID_AcuanDrop_Pack = 5666 --BOT AKAN DROP PACK DI ACUAN LGRID (5666)
+WebhookPack = "https://discord.com/api/webhooks/1106051957296222258/bGdKZteMk3Nsu7YZ8vOddain7hkwdgv9IfBgDqBzMX-nsSAtGzKw7xhD3pdlL4tIXnhU"
+HookIDPack = "1106052326038450240"
+ID_AcuanDrop_Pack = 5666
+
 
 ---===== New Variable on v4.8 =====---
 TilePNB = 5
