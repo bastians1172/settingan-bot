@@ -34,7 +34,7 @@ ID_AcuanDrop_Pack = 5666
 
 
 ---===== New Variable on v4.8 =====---
-TilePNB = 5
+TilePNB = 1
 SisaTree = 10
 
 Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
