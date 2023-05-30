@@ -57,9 +57,9 @@ botsetting = {
       posy = 26,
    },
    delayrotation = {
-      delayharvest = 80,
-      delayplant = 70,
-      delaypunch = 160,
+      delayharvest = 120
+      delayplant = 120
+      delaypunch = 180
       delayplace = 120,
    },
 }
@@ -84,7 +84,7 @@ othersetting = {
    joinrandomworldbot = {
       joinrandomworld = false,
       namerandomworld = {"WORLD1","WORLD2","WORLD3","WORLD4","WORLD5"},
-      delayjoinworld = 5000,
+      delayjoinworld = 15000,
    },
    otherwebhook = {
       linkwebhooknuked = "https://discord.com/api/webhooks/1098037339391004672/msOPysHO1LMkyoJbyIp5i2qluGzZ0KbX2g4FdnFrJwGZuAsQdWdKhnZoeIY2X2eQDM8m",
