@@ -54,7 +54,7 @@ botsetting = {
       numbertile = 1,
       customposxy = true,
       posx = 98,
-      posy = 27,
+      posy = 26,
    },
    delayrotation = {
       delayharvest = 80,
