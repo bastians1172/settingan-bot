@@ -1,0 +1,62 @@
+Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
+UTC_Time = 8 -- WIB 7 / WITA 8 / WIT 9
+JamTidur = {
+    "13:20",
+    "14:25",
+    "01:40"
+} -- JAM DAN MENIT BOTNYA OFF (Format 24 Jam)
+DelayTidur = 20 -- BOTNYA OFF SELAMA n DelayTidur (Format Menit)
+
+
+
+
+WorldSeed = {"zsokaftank1010","zsokaftank2020", "zsokaftank3030", "zsokaftank4040"} --WORLD SEED, BOTNYA AKAN RANDOM MASUK DIANTARA WORLD INI.
+setoran = 100 -- MAU SETOR TIAP BERAPA SEED
+
+
+--LISTNYA 1 UNTUK 1 SEED AJA! MISALKAN LU ADA 5 BOT PEPPER, YAUDA LISTNYA GAUSA 5, CKUP 1 AJA.
+ListSeed = {
+    {
+        idSeed = 4585, --ITEM ID SEED / FARM
+        ID_AcuanDrop = 4584, --BOT AKAN DROP SEED DI ACUAN WHEAT (880)
+        WebhookUrl = "", --URL WEBHOOK UNTUK INFO TOTAL SEED DROPPED
+        idHook = "" --ID HOOK SEED
+    },
+    {
+        idSeed = 3004, --ITEM ID SEED / FARM
+        ID_AcuanDrop = 3, --BOT AKAN DROP SEED DI ACUAN DIRT TREE (3)
+        WebhookUrl = "", --URL WEBHOOK UNTUK INFO TOTAL SEED DROPPED
+        idHook = "" --ID HOOK SEED
+    }
+}
+
+---==== PACK SETTINGS ====---
+WorldPack = {"umangajg9807", "umangajg9808", "umangajg9806"}
+autobuypack = true
+hargapack = 2000
+namapack = "world_lock"
+MinItemPack = 5
+maxbuy = 10
+iditempack = {242}
+WebhookPack = ""
+HookIDPack = ""
+ID_AcuanDrop_Pack = 5666
+
+
+---===== New Variable on v4.8 =====---
+TilePNB = 3
+SisaTree = 10
+
+Istirahat = false --JADIIN FALSE JIKA GAMAU ISTIRAHATIN BOTNYA
+
+target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
+target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
+delayht = 70 -- DELAY HARVEST
+delayplant = 50 -- DELAY PLANT
+delaypnb = 165 -- DELAY PNB
+delayplace = 115 -- DELAY PLACE
+delayworld = 3000 -- DELAY MASUK DOOR
+delaydrop = 500 -- JEDA DROP PER ITEM
+delaytrash = 100
+targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
+Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
