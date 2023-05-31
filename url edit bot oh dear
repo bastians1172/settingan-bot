@@ -1,6 +1,6 @@
 
 
-WorldSeed = {"zsokaftank1010","zsokaftank2020", "zsokaftank3030", "zsokaftank4040"} --WORLD SEED, BOTNYA AKAN RANDOM MASUK DIANTARA WORLD INI.
+WorldSeed = {"zsokaftank5050", "zsokaftank6060", "zsokaftank7070", "zsokaftank4040"} --WORLD SEED, BOTNYA AKAN RANDOM MASUK DIANTARA WORLD INI.
 setoran = 100 -- MAU SETOR TIAP BERAPA SEED
 
 
@@ -21,11 +21,11 @@ ListSeed = {
 }
 
 ---==== PACK SETTINGS ====---
-WorldPack = {"umangajg9807", "umangajg9808", "umangajg9806"}
+WorldPack = {"umangajg9809", "umangajg9900", "umangajg9901", "umangajg9902"}
 autobuypack = true
 hargapack = 2000
 namapack = "world_lock"
-MinItemPack = 5
+MinItemPack = 7
 maxbuy = 10
 iditempack = {242}
 WebhookPack = ""
