@@ -1052,6 +1052,7 @@ function storeSeed()
                sleep(500)
                sendPacket("action|dialog_return\ndialog_name|drop_item\nitemID|"..seed.."|\ncount|"..findItem(seed),2)
                sleep(1250)
+	       move(0,-1)
             end
          end
          if findItem(seed) ~= 200 then
