@@ -20,7 +20,7 @@ bot[usercoy[1]] = {
       patokanpack = 5666,
       worldseed = "zsokafences1010",
       doorseed = "117",
-      patokanseed = 3,
+      patokanseed = 20,
    },
    webhook = {
       linkwebhookinfo = "https://discord.com/api/webhooks/1063596556789485608/NKUL8giyGt3b6dyzzKX7xDgQrlQeloQJHnC-unVj7d0XdvZ_PbxASHxE5KQTN8H5-r8p",
