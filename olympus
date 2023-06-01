@@ -1044,8 +1044,8 @@ function storeSeed()
                warp(worldseed,doorseed)
                findPath(tile.x - 1,tile.y)
                sleep(500)
+	       end
                move(1,0)
-
             end
             while findItem(seed) == 200 and tileDrop2(tile.x,tile.y,200) do
                reconnect()
