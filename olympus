@@ -4,7 +4,7 @@
 
 bot = {}
 usercoy = {
-"U1I4I6Q9Q7",
+"P0Q4G2A3L8"",
 }
 
 bot[usercoy[1]] = {
@@ -713,7 +713,6 @@ end
 function tegakpnb(ex,ye)
    if math.floor(getBot().x / 32) ~= ex or math.floor(getBot().y / 32) ~= ye then
       reconnect()
-      warp(world,doorFarm)
       findPath(ex,ye)
       sleep(200)
    end
