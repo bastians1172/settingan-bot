@@ -1028,31 +1028,30 @@ function pnbcoy()
       end
    end
 end
-
 function storeSeed()
    sleep(100)
    reconnect()
-   warp(worldseed, doorseed)
+   warp(worldseed,doorseed)
    sleep(100)
    infobot("StoreSeed")
    sleep(100)
-   for _, tile in pairs(getTiles()) do
+   for _,tile in pairs(getTiles()) do
       if tile.fg == patokanseed or tile.bg == patokanseed then
-         if tileDrop2(tile.x, tile.y, 200) and findItem(seed) == 200 then
+         if tileDrop2(tile.x,tile.y,200) and findItem(seed) == 200 then
             while math.floor(getBot().x / 32) ~= (tile.x - 1) or math.floor(getBot().y / 32) ~= tile.y do
                reconnect()
-               warp(worldseed, doorseed)
-               findPath(tile.x - 1, tile.y)
+               warp(worldseed,doorseed)
+               findPath(tile.x - 1,tile.y)
                sleep(500)
+	       end
+               move(1,0)
             end
-            move(1, 0)
-            sleep(500) -- Tambahkan waktu tunggu sebelum menjatuhkan biji
-            while findItem(seed) == 200 and tileDrop2(tile.x, tile.y, 200) do
+            while findItem(seed) == 200 and tileDrop2(tile.x,tile.y,200) do
                reconnect()
-               warp(worldseed, doorseed)
-               sendPacket("action|drop\n|itemID|"..seed, 2)
+               warp(worldseed,doorseed)
+               sendPacket("action|drop\n|itemID|"..seed,2)
                sleep(500)
-               sendPacket("action|dialog_return\ndialog_name|drop_item\nitemID|"..seed.."|\ncount|"..findItem(seed), 2)
+               sendPacket("action|dialog_return\ndialog_name|drop_item\nitemID|"..seed.."|\ncount|"..findItem(seed),2)
                sleep(1250)
             end
          end
