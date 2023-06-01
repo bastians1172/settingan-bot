@@ -4,7 +4,7 @@
 
 bot = {}
 usercoy = {
-"P0Q4G2A3L8"",
+"P0Q4G2A3L8",
 }
 
 bot[usercoy[1]] = {
