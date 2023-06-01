@@ -1061,7 +1061,6 @@ function storeSeed()
          end
       end
    end
-end
    infopack(linkwebhookseed,messageidseed,scanneritem())
    sleep(1000)
    if joinrandomworld then
