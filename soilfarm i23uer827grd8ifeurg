@@ -1,3 +1,28 @@
 Istirahat = false
-DelayFindPath = 50
-TilePNB = 5
+DelayFindPath = 70
+TilePNB = 2
+
+
+
+
+HideWebhook = false --BOT GAK BAKAL NGIRIM WEBHOOK (CONDITIONAL VARIABLE LANJUTAN)
+ShowPingHook = true --bakal tetap ngasih info untuk PingHook
+ShowPlantHook = true --bakal tetap ngasih info untuk Planting Hook
+ShowMainInfo = true --bakal tetap ngasih info untuk Main Hook
+ShowSeedInfo = true --bakal tetap ngasih info untuk Seed Hook
+ShowPackInfo = true --bakal tetap ngasih info untuk Pack Hook
+
+
+
+---===== BASIC SETTINGS =====---
+target_block = 185 -- TARGET MAX HARVEST (JML BLOCK DI TAS)
+target_seed = 1 -- TARGET MINIMAL SEED UNTUK DITANAM
+delayht = 100 -- DELAY HARVEST
+delayplant = 50 -- DELAY PLANT
+delaypnb = 165 -- DELAY PNB
+delayplace = 115 -- DELAY PLACE
+delayworld = 3000 -- DELAY MASUK DOOR
+delaydrop = 1000 -- JEDA DROP PER ITEM
+delaytrash = 100
+targettrash = 100 -- AUTO TRASH JUNK ITEMS KETIKA MENCUKUPI TARGET
+Turu = true --JADIIN FALSE JIKA GAMAU UNLIMITED WORLD
